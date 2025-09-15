@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard - CUAB Fundraising</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+
+  <header>
+    <h1>CUAB Fundraising Admin Dashboard</h1>
+  </header>
+
+  <div class="container">
+
+    <!-- Campaign Management -->
+    <div class="section">
+      <h2>Manage Campaigns</h2>
+      <button class="btn add-btn" onclick="addCampaign()">+ Add Campaign</button>
+      <table id="campaignTable">
+        <thead>
+          <tr>
+            <th>Campaign Title</th>
+            <th>Target Amount</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mosque Renovation</td>
+            <td>₦500,000</td>
+            <td>Active</td>
+            <td>
+              <button class="btn edit-btn" onclick="editRow(this)">Edit</button>
+              <button class="btn delete-btn" onclick="deleteRow(this)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    
+    <div class="section">
+  <h2>Manage Recent Donations</h2>
+  <ul id="donationList">
+    <li>Jane Doe - ₦5,000 <button onclick="deleteDonation(this)">Delete</button></li>
+    <li>Ahmed Musa - ₦2,000 <button onclick="deleteDonation(this)">Delete</button></li>
+  </ul>
+
+  <h3>Add New Donation</h3>
+  <input type="text" id="donorName" placeholder="Donor Name">
+  <input type="text" id="donationAmount" placeholder="Amount (₦)">
+  <button onclick="addDonation()">Add Donation</button>
+</div>
+
+  </div>
+
+ 
+<script src="script.js"></script>
+
+</body>
+</html>

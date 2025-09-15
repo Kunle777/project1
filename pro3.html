@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="pro3.css">
+</head>
+<body>
+    <header>
+        <h1>Olanipekun AbdulRazaq</h1>
+    </header>
+    <nav class="navbar">
+        <div 
+        class="logo">My Portfolio</div>
+            <ul class="nav-links">
+            
+<li><a href="#" id="homeBtn">HOME</a></li>        
+<li><a href="#" id="aboutBtn">About</a></li> 
+<li><a href="#" id="serviceBtn">Services</a></li>
+<li><a href="#" id="portfolioBtn">Portfolio</a></li>
+<li><a href="#" id="contactBtn">Contact</a></li>
+<li><a id="loginBtn"> Login</a></li>
+
+</ul> 
+<div class="menu-toggle">===</div>
+</li> 
+   
+        
+            </ul>
+    </nav>
+    <section id="home">
+        <div class="hero-content">
+    <h2>Welcome to my Portfolio</h2>
+
+    <P>i am a passionate developer with experience in various technologies
+    </P>
+    <br>
+        <br>
+    <br>
+    <a href="#portfolio" class="cta-button">View my work</a>
+</section>
+    <section id="about">
+        <h2>About me</h2>
+<p>We are developers who specialize in creating dynamic and responsive web applications. Our mission is to deliver
+    high quality software solutions that meet client's needs</p>
+    <img src="profile.png.jpg" alt="Olanipekun AbdulRazaq" class="profile-pic">
+    </section>
+    <section id="services">
+       <h2>Services</h2>
+       <P>We offer a range of services including web development, mobile app development, and digital marketing.
+        Let us help you grow your business online
+       </P>
+       <h3>We Offer Services Like</h3>
+       <ul class="services-list">
+        <li>Web Design</li>
+        <li>Webd Development</li>
+        <li>Game Development</li>
+       </ul> 
+    </section>
+    <section id="portfolio">
+        <h3>Portfolio</h3>
+        <div class="project-item">
+            <img src="project.png" alt="project 2">
+            <h4>Guess My Number</h4>
+            <P>It is a guessing game that generate random numbers for you to guess</P>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out via email or through my social media channels.</p>
+        <form id="contact-form">
+            <input type="text" placeholder="Olanipekun AbdulRazaq" required>
+            <input type="email" placeholder="olanipekunabdulrazaq@gmail.com" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Login Modal -->
+    
+    
+    <div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password"name="password" required>
+            <br>
+            <br>
+            <button type="submit">Submit:</button>
+        </form>
+    </div>
+</div>
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024
+        Myportfolio. All rights reserved
+    </p>
+    <p>Follow me on 
+    <a href="#">Twitter</a>
+    <a href="#">LinkedIn</a>
+    and
+    <a href="#">GitHub</a>    
+    </p>
+</footer>
+    <script src="pro3.js"></script>
+
+</body>
+</html>
