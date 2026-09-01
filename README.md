@@ -76,6 +76,3 @@ fissabillulah/
 *  Web Developer | Graphic Designer
 * 📧 Email: \[Olanipekun Abdulrazaq]
 
----
-
-👉 Do you want me to **make this file and format it properly in Markdown (`README.md`)** so you can upload it directly to GitHub, or should I keep it as plain text for you to copy-paste?
